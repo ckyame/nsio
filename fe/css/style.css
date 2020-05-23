@@ -1,0 +1,77 @@
+body {
+  width: 3000px;
+  height: 3000px;
+  background: url(/btile.jpg);
+}
+.c{
+  display: block;
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  width: 20%;
+  height: 20%;
+  overflow-y: hidden;
+  z-index: 10;
+}
+#cmt, #cmtb {
+  position: fixed;
+  bottom: 0px;
+  z-index: 10;
+}
+#cmtb {
+  left: 172px;
+}
+.p {
+  transition-timing-function: step-start;
+  display:block;
+  position:absolute;
+  background:black;
+  width:25px;
+  height:25px;
+}
+.dr {
+  background: red;
+  border: red;
+  border-radius: 30px;
+  border-style: solid;
+}
+.dg {
+  background: green;
+  border: green;
+  border-radius: 30px;
+  border-style: solid;
+}
+.dp {
+  background: magenta;
+  border: magenta;
+  border-radius: 30px;
+  border-style: solid;
+}
+
+.lp {
+  background:url(/pinkbox.png) no-repeat center;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+  width:30px;
+  height:30px;
+  display: block;
+  position: absolute;
+  left: 50%;top: 50%;
+}
+
+.op {
+  background: red;
+  width:30px;
+  height:30px;
+  position: absolute;
+}
+
+.npb {
+  background: url(/npb.png) no-repeat center;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+}
